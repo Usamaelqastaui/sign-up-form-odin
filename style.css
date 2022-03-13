@@ -1,0 +1,23 @@
+:root{
+    --submit-color: #596D48;
+    --inputs-color: #E5E7EB;
+}
+
+#visual{
+    position: relative;
+    height: 100vh;
+    background-image:url("halie-west-25xggax4bSA-unsplash.jpg");
+
+}
+
+#credits{
+    position:absolute;
+    bottom: 2px;
+    left: 40%;
+}
+
+#logo{
+    background-color: black;
+    opacity: 50%;
+    color: white;
+}
