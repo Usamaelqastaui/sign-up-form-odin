@@ -2,22 +2,68 @@
     --submit-color: #596D48;
     --inputs-color: #E5E7EB;
 }
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+#container {
+    display: flex;
+
+}
 
 #visual{
     position: relative;
     height: 100vh;
     background-image:url("halie-west-25xggax4bSA-unsplash.jpg");
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex:1;
 }
 
 #credits{
     position:absolute;
     bottom: 2px;
-    left: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#credits a {
+    color: white;
 }
 
 #logo{
-    background-color: black;
-    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    background: rgba(0, 0, 0,  .5);
     color: white;
+    position: relative;
+    top: 20vh;
+    font-family: Norse-Bold, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+#logo img{
+    width: 110px;
+    height: 155px;
+}
+
+#main {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#main div{
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+h1 {
+    
 }
